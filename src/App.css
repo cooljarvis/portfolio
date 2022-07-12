@@ -1,3 +1,26 @@
 * {
-  background-color: aquamarine;
+  background-color: #bbc;
 }
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.App > * {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap : 5em;
+ margin-right: 3em;
+}
+
+.navbar {
+  grid-column: 1 / 4;
+}
+
